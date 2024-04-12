@@ -1,10 +1,10 @@
 ﻿namespace Domain
 {
-    public interface IComponent
+    internal interface IComponent
     {
-        string Name { get; }
-        decimal Quantity { get; }
-        Measurement Measurement { get; }
+        string Name { get; set; }
+        double Quantity { get; set; }
+        Measurement Measurement { get; set; }
 
     }
 

@@ -1,11 +1,10 @@
 ﻿namespace Domain
 {
-    public interface IItem
+    internal interface IItem
     {
         public string Name { get; set; }
         public string Description { get; set; }
-        public ItemType Type { get; set; }
-
+        public ItemType Type { get; }
     }
 
     public enum ItemType
