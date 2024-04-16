@@ -1,6 +1,6 @@
 ﻿namespace Domain
 {
-    internal interface IItem
+    public interface IItem
     {
         public string Name { get; set; }
         public string Description { get; set; }

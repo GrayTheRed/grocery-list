@@ -1,10 +1,10 @@
 ﻿
 namespace Domain
 {
-    internal interface IUser
+    public interface IUser
     {
-        Guid Id { get; }
-        string Name { get; }
-        string EmailAddress { get; }
+        Guid Id { get; set; }
+        string Name { get; set; }
+        string EmailAddress { get; set; }
     }
 }

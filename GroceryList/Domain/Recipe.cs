@@ -12,6 +12,7 @@ namespace Domain
         private string _description = "Please put your description here";
         private ItemType _type = ItemType.Recipe;
         private List<Ingredient> _ingredients = new List<Ingredient>();
+        
         public string Name { get => _name; set => _name = value; }
         public string Description { get => _description; set => _description = value; }
         public ItemType Type { get => _type;}
@@ -20,11 +21,6 @@ namespace Domain
         public Recipe(string name, string description) {
             Name = name;
             Description = description;
-        }
-
-        public void AddIngredient(Ingredient ingredient)
-        {
-            Ingredients.Add(ingredient);
         }
     }
 }

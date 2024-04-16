@@ -1,6 +1,6 @@
 ﻿namespace Domain
 {
-    internal interface IComponent
+    public interface IComponent
     {
         string Name { get; set; }
         double Quantity { get; set; }
